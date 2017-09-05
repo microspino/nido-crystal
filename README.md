@@ -1,4 +1,5 @@
-<h2>Nido <small>(ported to crystal-lang)</small></h2>
+<h2>Nido</h2>
+(ported from ruby to crystal-lang)_
 
 Structured keys helper.
 
@@ -30,6 +31,7 @@ Usage
 -----------
 
 To create a new namespace:
+
     >> require "nido"
 
     >> ns = Nido.new("foo")
@@ -72,18 +74,18 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   nido:
-    github: [microspino]/nido-crystal
+    github: microspino/nido-crystal
 ```
 
 Thanks
 -----------
 
-to [[soveran]](https://github.com/[soveran]) for inventing it and inspiring me to write **minimal code** in Ruby and now Crystal.
+to [soveran](https://github.com/[soveran]) for inventing it and inspiring me to write **minimal code** in Ruby and now Crystal.
 
 Contributing
 -----------
 
-1. Fork it ( https://github.com/[microspino]/nido-crystal/fork )
+1. Fork it ( https://github.com/microspino/nido-crystal/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
