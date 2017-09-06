@@ -77,6 +77,7 @@ Add this to your application's `shard.yml`:
 dependencies:
   nido:
     github: microspino/nido-crystal
+    version: ~> 0.1.1
 ```
 
 Thanks
