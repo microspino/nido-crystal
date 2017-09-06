@@ -1,5 +1,7 @@
-<h2>Nido</h2>
-(ported from ruby to crystal-lang)_
+Nido (ported to Crystal lang)
+===
+
+[Original Nido Ruby project from @soveran](https://github.com/soveran/nido)
 
 Structured keys helper.
 
